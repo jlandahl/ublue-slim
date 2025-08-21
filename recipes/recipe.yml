@@ -56,8 +56,9 @@ modules:
       - gvfs-mtp
       - gvfs-smb
       - lightdm
-      - mesa-dri-drivers
-      - mesa-vulkan-drivers
+      # replaced by ublue-base
+      # - mesa-dri-drivers
+      # - mesa-vulkan-drivers
       - nemo
       - nemo-fileroller
       - nemo-seahorse
@@ -83,6 +84,11 @@ modules:
       - xorg-x11-drv-intel
       - xorg-x11-drv-openchrome
       - xorg-x11-drv-vmware
+
+      - fedora-release-budgie-atomic
+      - gnome-software-rpm-ostree
+      - xorg-x11-server-Xwayland
+
       - gnome-terminal
       - emacs
       - emacsclient
